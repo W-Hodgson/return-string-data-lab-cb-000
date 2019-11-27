@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :orders
   resources :invoices
   resources :products
-  post "products/:id/description", to: ""
+  post "products/:id/description", to: "products#description"
 end
