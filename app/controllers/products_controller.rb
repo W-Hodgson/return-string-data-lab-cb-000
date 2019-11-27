@@ -16,6 +16,6 @@ class ProductsController < ApplicationController
   end
 
   def description
-
+    
   end
 end
