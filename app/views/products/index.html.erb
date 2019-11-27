@@ -15,7 +15,7 @@
         $.get("/products/" + id + "/inventory", function(inventory) {
           var inventoryText = "<strong>Available</strong>"
           if(inventory === "false") {
-            
+            inventoryText = ""
           }
         });
       });
