@@ -9,7 +9,7 @@ class ProductsController < ApplicationController
   end
 
   def show
-    
+    @product = 
   end
 
   def index
