@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   end
 
   def create
-    @product = Product.create(params.require(:product))
+    @product = Product.create(params.require(:product).permit(:name, :description, :inventory))
   end
 
   def index
